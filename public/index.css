@@ -1,0 +1,80 @@
+#teamh1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:20rem;
+    margin-left:10rem;
+}
+#teamh4{
+     margin-left :10rem;
+}
+.divteam,#imgteam{
+    display:inline-block;
+   
+}
+#imgteam{
+    float:right;
+    margin-top: 7rem;
+    margin-right: 7rem;
+}
+#downarrow{
+    display:block;
+    position: absolute;
+   top:50%;
+   left:48%;
+   margin-top: 17rem;
+}
+.info{
+    padding-top:25rem;
+}
+
+ #imgpranaw{
+   display: block;
+   margin:0 auto;
+   padding-top:2rem;
+   background-color: white;
+  
+ } 
+ #boardh2,#profilename,#designation,#profiledesignation{
+    text-align: center;
+ }
+ #profilename,#corename{
+    padding-top:2px;
+    font-family: 'Montserrat', sans-serif;
+ }
+.core{
+    margin:7rem;
+   margin-left:5rem;
+   display: flex; 
+}
+
+
+
+.image-content{
+    height: 10rem;
+    width:10rem;
+}
+
+#profilecard{
+    width: 18rem;
+    margin-right:3rem;
+    border-radius: 30px;
+     height:27rem;
+     background-color: antiquewhite;
+
+}
+#profileimg{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height:20rem;
+}
+#profilename{
+    text-align: center;
+}
+@media screen and (max-width:480px)
+{
+    .core{
+        display:block;
+     
+        
+    }
+
+}
